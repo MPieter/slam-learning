@@ -1,4 +1,4 @@
-# slam-learning
+# SLAM learning
 A collection of resources to get started learning SLAM
 
 ## Books
@@ -13,4 +13,9 @@ A collection of resources to get started learning SLAM
 
 
 
-## 
+## Tools
+
+### Graph SLAM
+
+* [g2o](https://github.com/RainerKuemmerle/g2o): graph optimization framework (C++)
+* [g2opy](https://github.com/markoelez/g2opy): python bindings of g2o
