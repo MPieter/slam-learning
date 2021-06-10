@@ -13,9 +13,16 @@ A collection of resources to get started learning SLAM
 
 
 
-## Tools
+## Tools (front-end SLAM)
 
 ### Graph SLAM
 
 * [g2o](https://github.com/RainerKuemmerle/g2o): graph optimization framework (C++)
 * [g2opy](https://github.com/markoelez/g2opy): python bindings of g2o
+
+## Tools (back-end SLAM)
+
+### Direct scan matching based on the Fourier Transform method
+
+* [imreg_dft](https://github.com/matejak/imreg_dft) (Python)
+* [imreg_fmt](https://github.com/sthoduka/imreg_fmt) (C++)
