@@ -5,6 +5,7 @@ A collection of resources to get started learning SLAM
 
 * Probabilistic Robotics By Sebastian Thrun, Wolfram Burgard and Dieter Fox
 * Multiple View Geometry in Computer Vision By Richard Hartley and Andrew Zisserman
+* Learning OpenCV 3: Computer Vision in C++ By Adrian Kaehler & Gary Bradski
 
 ## Courses
 
