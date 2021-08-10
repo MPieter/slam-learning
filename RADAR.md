@@ -8,7 +8,7 @@ A SLAM algorithm using an odometer and radar sensor (x4, in total 360degree cove
 
 ### Precise Ego-Motion Estimation with Millimeter-Wave Radar under Diverse and Challenging Conditions by Sarah H. Cen and Paul Newman (2018)
 
-
+Main contributions of this paper are a novel method to extract landmarks from a FMCW radar returns. Furthermore, relative motion is estimated using scan matching by greedily adding point correspondences based on unary descriptors and pairwise compatibility scores. The association is based not only on unary descriptors, but also based on the relationship with other landmarks. The greater the number of points, the less likely it is for an individual point to have the same set of pairwise distance to its neighbors as another.
 
 ### Real-Time Pose Graph SLAM based on RADAR by Martin Holder, Sven Hellwig and Hermann Winner (2019)
 
