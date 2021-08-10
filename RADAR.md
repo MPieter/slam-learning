@@ -20,7 +20,9 @@ Main contribution of this paper is to use a direct method to estimate the odomet
 
 ### RadarSLAM: Radar based Large-Scale SLAM in All Weathers by Ziyang Hong, Yvan Petillot and Sen Wang (2020)
 
-
+Radar SLAM by pose tracking using visual SLAM techniques. Keypoint features are extracted using SURF and matched using their feature descriptors.  Relative transformation is then obtained via SVD. 
+Local mapping is done by performing local bundle adjustment on the poses of keyframes and the locations of map points with the Levenberg-Marquardt method.
+In order to do loop closure, radar images are converted to point clouds with a novel method and then M2DP is used to describe it (M2DP is an rotation invariant global descriptor for 3D point clouds)
 
 ## Contributors
 
