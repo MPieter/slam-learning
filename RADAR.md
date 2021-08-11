@@ -1,6 +1,8 @@
 # RADAR
 
-## Papers
+## SLAM Papers
+
+Papers who present complete SLAM solutions based on (but not exclusively) radar sensors.
 
 ### [Real Time RADAR SLAM](https://www.uni-das.de/images/pdf/veroeffentlichungen/2017/01.pdf) by Markus Schoen, Markus Horn, Markus Hahn, Juergen Dickmann (2017)
 
@@ -24,5 +26,11 @@ Radar SLAM by pose tracking using visual SLAM techniques. Keypoint features are 
 Local mapping is done by performing local bundle adjustment on the poses of keyframes and the locations of map points with the Levenberg-Marquardt method.
 In order to do loop closure, radar images are converted to point clouds with a novel method and then M2DP is used to describe it (M2DP is an rotation invariant global descriptor for 3D point clouds)
 
-## Contributors
+## Radar Occupancy Grids
 
+### Dual Inverse Sensor Model for Radar Occupancy Grids by Michael Slutsky and Daniel Dobkin (2019)
+
+A novel Inverse Sensor Model for radar sensors. The model includes a "positive" component describing occupancy probabilities induced by radar detections and a "negative" component handling lack of detections in a given direction. The paper assumes a network of imaging radars that produce 3D detections/targets.
+
+## Contributors
+Important contributors to the RADAR field.
