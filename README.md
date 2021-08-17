@@ -18,6 +18,10 @@ If you want to kickstart the development of your SLAM system:
 * ORB SLAM 2
 * DSO: Direct Sparse Odometry
 
+## Datasets
+
+* Oxford Radar RobotCar DataSet
+
 ## Tools (front-end SLAM)
 
 ### Graph SLAM
